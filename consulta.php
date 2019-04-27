@@ -25,12 +25,12 @@
             header("location:plantas.php");
         }
 
-        $resultado = $con->query("SELECT * FROM gramineas WHERE id_graminea = '$recebido'");
+        $resultado = $con->query("SELECT * FROM plantacao WHERE id_plantacao = '$recebido'");
         $resultado->execute();
         $linha = $resultado->fetch(PDO::FETCH_ASSOC);
         ?>
 
-        <section class="container text-justify mt-3">
+        <section class="container text-justify mt-3 py-3">
             <div>
                 <img class="img img-fluid" title='<?php echo "$linha[nome]"; ?>' alt='<?php echo "$linha[nome]"; ?>' src='img/<?php echo "$linha[foto]"; ?>'>
                 <h3 class="text-center">

@@ -18,12 +18,8 @@
         include("header.html");
         ?>
 
-        <section class="container text-justify mt-3">
-            <h3 class="text-center"><strong>TMI</strong></h3>
-
-            <p class="text-center">Transformação de Dados Meteorológicos em Informações Úteis para Plantio de Gramíneas</p>
-
-            <p class="recuo">A presente pesquisa trata-se de um estudo sobre a transformação de dados meteorológicos em informações úteis para áreas de plantios de gramíneas.</p>
+        <section class="container text-justify mt-3 py-3">
+            <h3 class="text-center"><strong>Transformação de Dados Meteorológicos em Informações para Plantações da Região Nordeste</strong></h3>
 
             <p class="recuo">A pesquisa foi aplicada de maneira a se obter dado referente ao plantio, como melhor época, precipitação chuvosa, causa de dano ao mesmo, mudança climática, como também soluções aplicadas, além dos dados disponibilizados de forma gratuita sobre o tempo.</p>
 

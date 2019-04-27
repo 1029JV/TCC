@@ -20,18 +20,18 @@
 
         <div class="position-relative overflow-hidden p-md-5 text-center bg-light">
             <div class="col-6 mx-auto">
-                <img width="40%" src="img/tmi.png" alt="Transformação de Dados Meteorológicos em Informações Úteis para Plantio de Gramíneas" title="Transformação de Dados Meteorológicos em Informações Úteis para Plantio de Gramíneas">
-                <p class="lead font-weight-normal">Transformação de Dados Meteorológicos em Informações Úteis para Plantio de Gramíneas</p>
+                <img width="40%" src="img/tmi.png" alt="Transformação de Dados Meteorológicos em Informações para Plantações da Região Nordeste" title="Transformação de Dados Meteorológicos em Informações para Plantações da Região Nordeste">
+                <p class="lead font-weight-normal">Transformação de Dados Meteorológicos em Informações para Plantações da Região Nordeste</p>
                 <a class="btn btn-outline-success" href="sobre.php">Ler mais</a>
             </div>
         </div>
 
-        <section class="album py-5 bg-light">
+        <section class="album bg-light mt-3 py-3">
             <div class="container">
                 <div class="row">
                     <?php
                     include("conexao.php");
-                    $resultado = $con->query("SELECT id_graminea, nome, descricao, foto FROM gramineas ORDER BY nome ASC");
+                    $resultado = $con->query("SELECT id_plantacao, nome, descricao, foto FROM plantacao ORDER BY nome ASC");
                     $resultado->execute();
                     while ($linha = $resultado->fetch(PDO::FETCH_ASSOC)) {
                         $str = $linha['descricao'];
@@ -47,8 +47,8 @@
                                 <div class="card-body">
                                     <p class="card-text text-justify"><?php echo $newStr; ?>... 
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <form method="post" action="consulta.php"><input type="hidden" name="selecionado" id="selecionado" value='<?php echo "$linha[id_graminea]"; ?>'> <input class="btn btn-outline-success" type="submit" value="Ler mais"/></form></p>
+                                        <div class="btn-group text-center m-auto">
+                                            <form method="post" action="consulta.php"><input type="hidden" name="selecionado" id="selecionado" value='<?php echo "$linha[id_plantacao]"; ?>'> <input class="btn btn-outline-success" type="submit" value="Ler mais"/></form></p>
                                         </div>
                                     </div>
                                 </div>

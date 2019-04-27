@@ -31,6 +31,10 @@ body {
     object-position: bottom;
 }
 
+.btn {
+    background-color: #fff;
+}
+
 .btn-outline-success {
     border-color: #085231;
 }
