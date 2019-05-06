@@ -36,10 +36,10 @@
                 <h3 class="text-center">
                     <strong class="d-inline-block"><?php echo "$linha[nome]"; ?></strong>
                 </h3>
-                <p>Temperatura: <?php echo "$linha[temperatura]"; ?></p>
-                <p>Água: <?php echo "$linha[agua]"; ?></p>
-                <p>Solo: <?php echo "$linha[solo]"; ?></p>
-                <p>Descrição: <?php echo "$linha[descricao]"; ?></p>
+                <p><strong>Temperatura:</strong> <?php echo "$linha[temperatura]"; ?></p>
+                <p><strong>Água:</strong> <?php echo "$linha[agua]"; ?></p>
+                <p><strong>Solo:</strong> <?php echo "$linha[solo]"; ?></p>
+                <p><strong>Descrição:</strong> <?php echo "$linha[descricao]"; ?></p>
             </div>
         </section>
 
