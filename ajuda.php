@@ -42,7 +42,6 @@
             </div>
         </div>
     </div>
-    <hr class="mb-3">
     <div class="text-center">
         <button class="btn btn-success" type="submit">Enviar</button>
     </div>
