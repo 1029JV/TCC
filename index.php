@@ -30,7 +30,7 @@
                 <div class="row">
                     <?php
                     include("conexao.php");
-                    $resultado = $con->query("SELECT id_plantacao, nome, descricao, foto FROM plantacao ORDER BY nome ASC");
+                    $resultado = $con->query("SELECT id_plantacao, nome, descricao, foto FROM plantacao ORDER BY nome ASC LIMIT 6");
                     $resultado->execute();
                     while ($linha = $resultado->fetch(PDO::FETCH_ASSOC)) {
                         $str = $linha['descricao'];

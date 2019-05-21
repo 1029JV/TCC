@@ -1,23 +1,23 @@
 ﻿<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta name="theme-color" content="#085231">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#085231">
-    <meta name="msapplication-navbutton-color" content="#085231">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="icon" href="img/icon.png">
-    <title>TMI - Mapa</title>
-</head>
+    <head>
+        <meta name="theme-color" content="#085231">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#085231">
+        <meta name="msapplication-navbutton-color" content="#085231">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" href="img/icon.png">
+        <title>TMI - Mapa</title>
+    </head>
 
-<body>
-    <?php
-    include("header.html");
-    ?>
+    <body>
+        <?php
+        include("header.html");
+        ?>
 
-    <section class="mt-3 py-3">
+    <!--<section class="mt-3 py-3">
         <h2 class="text-center">Mapa</h2>
         <div class="mr-5 float-right text-center">
             <p>Temperatura em <strong>°C</strong></p>
@@ -107,10 +107,10 @@
             </table>
         </div>
         <img src="https://s3.amazonaws.com/img.tempoagora.com.br/temperatura.png?1557174823026" style="z-index: 2; opacity: 0.5; transform: translate3d(110px, 0px, 0px); width: 1024px; height: 830px;">
-    </section>
+    </section>-->
 
-    <?php
-    include("footer.html");
-    ?>
-</body>
+        <?php
+        include("footer.html");
+        ?>
+    </body>
 </html>
